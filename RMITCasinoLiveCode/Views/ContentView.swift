@@ -141,16 +141,16 @@ struct ContentView: View {
                 VStack {
                     
                     // MARK: - First Reel
-                    ReelVew(reelIcon: icons[reels[0]], animatingIcon: animatingIcon)
+                    ReelView(reelIcon: icons[reels[0]], animatingIcon: animatingIcon)
                     
                     HStack {
                         // MARK: - Second Reel
-                        ReelVew(reelIcon: icons[reels[1]], animatingIcon: animatingIcon)
+                        ReelView(reelIcon: icons[reels[1]], animatingIcon: animatingIcon)
                         
                         Spacer()
                         
                         // MARK: - Third Reel
-                        ReelVew(reelIcon: icons[reels[2]], animatingIcon: animatingIcon)
+                        ReelView(reelIcon: icons[reels[2]], animatingIcon: animatingIcon)
                     }
                     
                     // MARK: - Spin Button

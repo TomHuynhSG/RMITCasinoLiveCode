@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ReelVew: View {
+struct ReelView: View {
     var reelIcon: String
     var animatingIcon: Bool
     var body: some View {
@@ -25,5 +25,5 @@ struct ReelVew: View {
 }
 
 #Preview {
-    ReelVew(reelIcon: "apple", animatingIcon: true)
+    ReelView(reelIcon: "apple", animatingIcon: true)
 }
